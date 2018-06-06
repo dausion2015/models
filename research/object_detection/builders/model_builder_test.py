@@ -17,11 +17,13 @@
 import os,sys
 path_res = os.path.abspath(os.getcwd())
 print("ssss")
+path_obj = os.path.abspath(os.path.join(path_res,'object_detection'))
 path_slim = os.path.abspath(os.path.join(path_res,'slim'))
 path_nets = os.path.abspath(os.path.join(path_slim,'nets'))
 sys.path.append(path_res)
 sys.path.append(path_slim)
 sys.path.append(path_nets)
+sys.path.append(path_obj)
 print(sys.path)
 import tensorflow as tf
 

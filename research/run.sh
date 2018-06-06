@@ -10,7 +10,7 @@ export PYTHONPATH=$PYTHONPATH:$DIR:$DIR/slim:$DIR/object_detection
 
 # 定义各目录
 output_dir=/output  # 训练目录
-dataset_dir=/data/dausion2015/obj-det-dataset# 数据集目录，已经修改
+dataset_dir=/data/dausion2015/dataset-obj/# 数据集目录，已经修改
 
 train_dir=$output_dir/train
 checkpoint_dir=$train_dir
